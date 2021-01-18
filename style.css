@@ -22,7 +22,12 @@
     top: 437px;
   }
   .photo{
-    width: 10%;
+    width: 240px;
+        height: 240px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 12px;
+        margin-bottom: 15px;
   }
 }
 
