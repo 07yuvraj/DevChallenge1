@@ -1,0 +1,124 @@
+.body {
+  background: #ffffff;
+  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 1080px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  .name{
+      position: relative;
+    left: 0.3px;
+    top: 437px;
+  }
+}
+
+.left-col {
+  position: relative;
+}
+
+.errormsg {
+  position: absolute;
+  height: 25px;
+  left: 77px;
+  top: 40px;
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.photo {
+  left: 5.35%;
+  right: 57.21%;
+  top: 24.54%;
+  bottom: 34.03%;
+  width: 55%;
+  height: 50%;
+  padding-top: 200px;
+}
+
+.right-col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.badnews {
+  width: 586px;
+  height: 190px;
+  left: 735px;
+  top: 265px;
+  padding-top: 15%;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+
+.content {
+  width: 381px;
+  height: 108px;
+  left: 736px;
+  top: 491px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+.back {
+  width: 216px;
+  height: 68px;
+  left: 740px;
+  top: 663px;
+  background: #333333;
+}
+
+.back-content {
+  position: relative;
+  padding-top: 10%;
+  padding-left: 11%;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.name {
+  padding-left: 45%;
+  width: 226px;
+  height: 17px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #333333;
+}
